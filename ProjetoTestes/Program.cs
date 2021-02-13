@@ -1,6 +1,7 @@
-﻿using ProjetoTestes.Uteis;
-using System;
+﻿using ProjetoTestes.Enumerador;
+using ProjetoTestes.Uteis;
 using System.Data;
+using System;
 
 namespace ProjetoTestes
 {

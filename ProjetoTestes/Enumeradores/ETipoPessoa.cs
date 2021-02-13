@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace ProjetoTestes
+namespace ProjetoTestes.Enumerador
 {
 	public enum ETipoPessoa
 	{
