@@ -1,7 +1,8 @@
-﻿using ProjetoTestes.Enumerador;
+﻿using ProjetoTestes.Desafios;
+using ProjetoTestes.Enumerador;
 using ProjetoTestes.Uteis;
-using System.Data;
 using System;
+using System.Data;
 using System.Linq;
 
 namespace ProjetoTestes
@@ -14,9 +15,14 @@ namespace ProjetoTestes
 			Console.WriteLine("-");
 
 			//ObterNomesDoEnumerdor();
-			ObterPrimeiroTextoDeUmString();
+			//ObterPrimeiroTextoDeUmString();
 
-			Console.WriteLine("-");
+			var desafio = new DesafioDigitalInnovationDev9Avanade();
+			desafio.Desafio01();
+			desafio.Desafio02();
+			desafio.Desafio03();
+
+			Console.WriteLine(" ");
 			Console.ReadLine();
 		}
 
@@ -39,5 +45,6 @@ namespace ProjetoTestes
 			Console.WriteLine(texto1[0]);
 			Console.WriteLine(texto2);
 		}
+
 	}
 }
